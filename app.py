@@ -24,7 +24,7 @@ def analyze_text(text):
     # Instructions for the AI (adjust if needed)
     messages = [
         {"role": "system", "content": "You are an assistant who helps craft social media posts."},
-        {"role": "user", "content": f"Please help me write a social media post based on the following:\n{text}"}
+        {"role": "user", "content": f"Please help me write a social media post based on the following, make sure you detail with bullet points and steps:\n{text}"}
     ]
 
     response = client.chat.completions.create(
