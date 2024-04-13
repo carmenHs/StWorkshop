@@ -5,6 +5,7 @@ import os
 
 # Get your OpenAI API key from environment variables 
 api_key = os.getenv("OPENAI_API_KEY")  # Used in production
+api_key = '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'
 client = OpenAI(api_key=api_key)
 
 # Cell 2: Title & Description
